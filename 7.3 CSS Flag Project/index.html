@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flag Project</title>
+    <style>
+      /* Write your CSS Code here */
+      .flag {
+        position: relative;
+        left: 434px;
+        top: 100px;
+      }
+      .stripe-one {
+        /* text-align: center; */
+        height: 100px;
+        width: 400px;
+        background-color: orange;
+        position: relative;
+      }
+      .stripe-one p {
+        padding-left: 170px;
+        padding-top: 25px;
+        position: absolute;
+        text-transform: uppercase;
+      }
+      .stripe-two {
+        /* text-align: center; */
+        height: 100px;
+        width: 400px;
+        background-color: whitesmoke;
+        position: relative;
+      }
+      #circle {
+        width: 100px;
+        height: 91px;
+        position: absolute;
+        left: 148px;
+        border-radius: 50%;
+        border: 5px solid blue;
+      }
+      .stripe-two p {
+        padding-left: 179px;
+        padding-top: 25px;
+        position: absolute;
+        text-transform: uppercase;
+      }
+      .stripe-three {
+        height: 100px;
+        width: 400px;
+        background-color: green;
+        position: relative;
+      }
+      .stripe-three p {
+        padding-left: 178px;
+        padding-top: 25px;
+        position: absolute;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+
+  <!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+  <body>
+    <div class="flag">
+      <div class="stripe-one">
+        <p>Orange</p>
+      </div>
+      <div class="stripe-two">
+        <p>India</p>
+        <div id="circle"></div>
+      </div>
+      <div class="stripe-three">
+        <p>Green</p>
+      </div>
+    </div>
+  </body>
+</html>
